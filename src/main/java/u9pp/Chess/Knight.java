@@ -30,7 +30,7 @@ class Knight extends ChessPiece{
   }
 
   public boolean knightMoves(int rows, int cols){
-    for(int i = 0; i < xPos.length; i++){
+    flor(int i = 0; i < xPos.length; i++){
       if(super.canMoveTo((this.row + yPos[i]),(this.col + xPos[i])) == true){
         if(board[(this.row + yPos[i])][(this.col + xPos[i])]== null || board[(this.row + yPos[i])][(this.col + xPos[i])].isWhite != this.isWhite){
           if((this.row + yPos[i]) == rows && (this.col + xPos[i]) == cols ){

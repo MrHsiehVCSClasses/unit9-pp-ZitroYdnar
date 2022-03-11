@@ -1,4 +1,5 @@
 package u9pp.MonsterFighter;
+
 class SlowMonster extends Monster{
   private int turn = 0;
   
